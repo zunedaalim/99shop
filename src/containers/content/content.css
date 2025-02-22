@@ -1,0 +1,584 @@
+@font-face {
+  font-family: "Oswald";
+  src: url("../../Fonts/Oswald-Heavy.ttf");
+}
+.shawp__content {
+  margin: 5rem 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-gap: 10px;
+}
+
+/* .zigzag-item:nth-child(even) {
+  transform: translateX(50%);
+}
+.zigzag-item {
+  margin-bottom: -20px; 
+} */
+.shawp__content-heading {
+  position: relative;
+  padding-left: 1rem;
+}
+.shawp__content-heading p {
+  font-size: 95px;
+  font-family: "Oswald";
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 5.5rem;
+  font-weight: bolder;
+  word-spacing: 3px;
+}
+.shawp__content-heading-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 130px;
+  width: fit-content;
+  overflow: hidden;
+  position: absolute;
+  top: -10%;
+  left: 15%;
+}
+.shawp__content-heading-img img {
+  height: 100%;
+}
+
+.shawp__content-white-outer-container img {
+  height: 100px;
+  width: 100px;
+}
+.zigzag-item:nth-child(2) {
+  justify-self: end;
+  margin-top: 10%;
+  margin-right: 2rem;
+}
+.shawp__content-kid1,
+.shawp__content-white,
+.shawp__content-kid2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.shawp__content-kid1-outer-container {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  position: relative;
+  background-image: url("../../Assets/kid1.webp");
+  height: 400px;
+  width: 420px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 13%;
+}
+.shawp__content-kid1-outer-container:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+.shawp__content-kid1-content {
+  width: 420px;
+  padding: 0rem;
+  text-align: start;
+}
+.shawp__content-kid1-content p,
+.shawp__content-kid2-content p,
+.shawp__content-white p {
+  font-family: "oswald";
+  line-height: 22px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+.gotoshop {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: -5%;
+  left: -2%;
+  background-color: black;
+  color: white;
+  width: 185px;
+  height: 65px;
+  border-radius: 30px;
+  border: 10px solid #fffaf3;
+}
+.gotoshop p {
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-family: var(--font-family);
+}
+.gotoshop img {
+  height: 37px;
+  width: 37px;
+}
+.zigzag-item:nth-child(4) {
+  justify-self: end;
+  margin-top: 16%;
+  margin-right: 22%;
+}
+
+.shawp__content-kid2-outer-container {
+  position: relative;
+  background-image: url("../../Assets/kid2.webp");
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+  height: 550px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 13%;
+}
+.shawp__content-kid2-outer-container:hover,
+.shawp__content-white-outer-container:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+.shawp__content-kid2-content {
+  width: 400px;
+  text-align: start;
+}
+.zigzag-item:nth-child(3) {
+  transform: translateY(-18%);
+}
+
+.shawp__content-white-outer-container {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+  position: relative;
+  background-image: url("../../Assets/white.webp");
+  height: 600px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 13%;
+}
+
+.shawp__content-white-content {
+  width: 400px;
+  text-align: start;
+}
+.gotoshop p {
+  color: rgb(244, 220, 81);
+}
+.shawp__content-white-outer-container .gotoshop p {
+  padding-bottom: 10px;
+}
+.gotoshop:hover {
+  scale: 1.02;
+  transition: all 0.4s ease-in-out;
+}
+.kiss {
+  position: absolute;
+  height: 150px;
+  width: 1000px;
+  background-image: url("../../Assets/design.png");
+  top: 50%;
+  left: -2%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 1191px) {
+  .shawp__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .shawp__content-heading {
+  }
+  .shawp__content-heading p {
+    font-size: 75px;
+    font-family: "Oswald";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 4.5rem;
+    font-weight: bolder;
+    word-spacing: 3px;
+  }
+  .kiss {
+    position: absolute;
+    height: 50px;
+    width: 500px;
+    background-image: url("../../Assets/design.png");
+    top: 100%;
+    left: -2%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .shawp__content-heading-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: fit-content;
+    overflow: hidden;
+    position: absolute;
+
+    left: 100%;
+  }
+  .zigzag-item:nth-child(2) {
+    justify-self: end;
+    margin-top: 5rem;
+    margin-right: 0;
+  }
+  .shawp__content-kid1-outer-container {
+    margin: 2rem;
+  }
+  .zigzag-item:nth-child(3) {
+    transform: translateY(0%);
+  }
+
+  .shawp__content-white-outer-container {
+    margin-top: 3rem;
+  }
+  .zigzag-item:nth-child(4) {
+    justify-self: end;
+    margin-top: 4rem;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 633px) {
+  .shawp__content-heading p {
+    font-size: 65px;
+    font-family: "Oswald";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 4rem;
+    font-weight: bolder;
+    word-spacing: 3px;
+  }
+  .kiss {
+    position: absolute;
+    height: 50px;
+    width: 350px;
+    background-image: url("../../Assets/design.png");
+    top: 100%;
+    left: -2%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .shawp__content-heading-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: fit-content;
+    overflow: hidden;
+    position: absolute;
+
+    left: 100%;
+  }
+  .shawp__content-kid1-outer-container {
+    height: 300px;
+    width: 320px;
+  }
+
+  .shawp__content-kid1-content {
+    width: 370px;
+    padding: 0rem;
+  }
+  .shawp__content-white-outer-container {
+    height: 400px;
+    width: 250px;
+  }
+
+  .shawp__content-white-content {
+    width: 370px;
+  }
+  .shawp__content-kid2-outer-container {
+    height: 450px;
+    width: 300px;
+  }
+
+  .shawp__content-kid2-content {
+    width: 370px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .shawp__content-heading p {
+    font-size: 55px;
+    font-family: "Oswald";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 3.5rem;
+    font-weight: bolder;
+    word-spacing: 3px;
+  }
+  .kiss {
+    position: absolute;
+    height: 50px;
+    width: 350px;
+    background-image: url("../../Assets/design.png");
+    top: 100%;
+    left: -2%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .shawp__content-heading-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: fit-content;
+    overflow: hidden;
+    position: absolute;
+
+    left: 100%;
+  }
+  .shawp__content-kid1-outer-container {
+    height: 300px;
+    width: 270px;
+  }
+
+  .shawp__content-kid1-content {
+    width: 300px;
+    padding: 0rem;
+    text-align: center;
+  }
+  .shawp__content-white-outer-container {
+    height: 400px;
+    width: 270px;
+  }
+
+  .shawp__content-white-content {
+    width: 300px;
+    text-align: center;
+  }
+  .shawp__content-kid2-outer-container {
+    height: 450px;
+    width: 300px;
+  }
+
+  .shawp__content-kid2-content {
+    width: 300px;
+    text-align: center;
+  }
+  .shawp__content {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 426px) {
+  .shawp__content-heading p {
+    font-size: 55px;
+    font-family: "Oswald";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 3.5rem;
+    font-weight: bolder;
+    word-spacing: 3px;
+    margin: 0;
+  }
+  .shawp__content-heading-img img {
+    display: none;
+  }
+  .kiss {
+    position: absolute;
+    height: 50px;
+    width: 310px;
+    background-image: url("../../Assets/design.png");
+    top: 100%;
+    left: -2%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .shawp__content-heading-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: fit-content;
+    overflow: hidden;
+    position: absolute;
+
+    left: 100%;
+  }
+  .shawp__content-kid1-outer-container {
+    height: 350px;
+    width: 250px;
+  }
+
+  .shawp__content-kid1-content {
+    width: 250px;
+    padding: 0rem;
+    text-align: center;
+  }
+  .shawp__content-white-outer-container {
+    height: 400px;
+    width: 270px;
+  }
+
+  .shawp__content-white-content {
+    width: 250px;
+    text-align: center;
+  }
+  .shawp__content-kid2-outer-container {
+    height: 400px;
+    width: 270px;
+  }
+
+  .shawp__content-kid2-content {
+    width: 250px;
+    text-align: center;
+  }
+  .shawp__content-heading {
+    margin: 0;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 426px) {
+  .shawp__content-heading {
+    width: 100%;
+    padding-left: 1rem;
+  }
+  .shawp__content-heading p {
+    font-size: 65px;
+    font-family: "Oswald";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 3.5rem;
+    font-weight: bolder;
+    word-spacing: 3px;
+    margin: 0;
+  }
+  .shawp__content-heading-img img {
+    display: block;
+  }
+  .kiss {
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    background-image: url("../../Assets/design.png");
+    top: 100%;
+    left: -2%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .shawp__content-heading-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    width: fit-content;
+    overflow: hidden;
+    position: absolute;
+
+    left: 65%;
+    top: 50%;
+  }
+  .shawp__content-kid1-outer-container {
+    height: 350px;
+    width: 330px;
+    margin-bottom: 0;
+  }
+
+  .shawp__content-kid1-content {
+    width: 320px;
+    padding: 0rem;
+    text-align: start;
+  }
+  .shawp__content-white-outer-container {
+    height: 400px;
+    width: 320px;
+  }
+
+  .shawp__content-white-content {
+    width: 310px;
+    text-align: start;
+  }
+  .shawp__content-kid2-outer-container {
+    height: 400px;
+    width: 320px;
+  }
+
+  .shawp__content-kid2-content {
+    width: 320px;
+    text-align: start;
+  }
+}
+@media screen and (max-width: 376px) {
+  .shawp__content-heading p {
+    font-size: 55px;
+    font-family: "Oswald";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 3.5rem;
+    font-weight: bolder;
+    word-spacing: 3px;
+    margin: 0;
+  }
+  .shawp__content-heading-img img {
+    display: none;
+  }
+  .kiss {
+    position: absolute;
+    height: 50px;
+    width: 310px;
+    background-image: url("../../Assets/design.png");
+    top: 100%;
+    left: -2%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .shawp__content-heading-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: fit-content;
+    overflow: hidden;
+    position: absolute;
+
+    left: 100%;
+  }
+  .shawp__content-kid1-outer-container {
+    height: 350px;
+    width: 250px;
+  }
+
+  .shawp__content-kid1-content {
+    width: 250px;
+    padding: 0rem;
+    text-align: center;
+  }
+  .shawp__content-white-outer-container {
+    height: 400px;
+    width: 270px;
+  }
+
+  .shawp__content-white-content {
+    width: 250px;
+    text-align: center;
+  }
+  .shawp__content-kid2-outer-container {
+    height: 400px;
+    width: 270px;
+  }
+
+  .shawp__content-kid2-content {
+    width: 250px;
+    text-align: center;
+  }
+  .shawp__content-heading {
+    margin: 0;
+    padding: 0;
+  }
+}

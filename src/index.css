@@ -1,13 +1,20 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Sacramento&display=swap");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin&family=Fjalla+One&family=Merriweather:wght@900&family=Overpass:wght@500&family=Sacramento&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin&family=Fjalla+One&family=Overpass:wght@500&family=Sacramento&display=swap");
+:root {
+  --font-family: "Fjalla One", "Sacramento";
+  --font-family-heading: "Bebas Neue", "Fjalla One";
+  --font-family-content: "Sacremento";
+  --font-family-2023: "Cabin";
+  --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
+  --color-b: #9999;
+  --color-bg: #040c18;
+  --color-footer: #031b34;
+  --color-blog: #042c54;
+  --color-text: #81afdd;
+  --color-subtext: #ff8a71;
 }

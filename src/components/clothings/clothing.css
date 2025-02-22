@@ -1,0 +1,121 @@
+.shawp__clothing {
+  display: flex;
+  width: 2760px;
+}
+.shawp__clothing-outercontainer {
+  width: 100%;
+
+  position: relative;
+
+  overflow-x: auto;
+}
+.outer-container img {
+  height: 35px;
+  width: 30px;
+  margin: 0.4rem 0.6rem;
+}
+.outer-container button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Scrollbar */
+.shawp__clothing-outercontainer::-webkit-scrollbar {
+  height: 0px;
+}
+
+.shawp__clothing-outercontainer::-webkit-scrollbar-thumb {
+  background-color: #a4a6a7; /* Change the scrollbar thumb color */
+}
+
+.shawp__clothing-outercontainer::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Change the scrollbar track color */
+}
+.outer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 2%;
+  top: 45%;
+}
+
+.outer-container button,
+.left button {
+  padding: 0;
+}
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left img {
+  height: 35px;
+  width: 30px;
+  margin: 0.4rem 0.6rem;
+}
+/* CSS */
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 0 10px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media screen and (max-width: 920px) {
+  .shawp__clothing-outercontainer::-webkit-scrollbar {
+    width: 0;
+  }
+  .shawp__clothing {
+    width: 2200px;
+  }
+  .button-74 {
+    display: none;
+  }
+  .outer-container {
+    display: none;
+  }
+  .left {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .shawp__clothing {
+    width: 2000px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .shawp__clothing {
+    width: 100%;
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 10px;
+  }
+}

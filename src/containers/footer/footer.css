@@ -1,0 +1,534 @@
+.shawp__footer-outercontainer {
+  display: flex;
+  flex-direction: column;
+}
+.shawp__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 2rem;
+}
+.shawp__footer-99shop img {
+  height: 250px;
+}
+.shawp__footer-99shop {
+  width: 40%;
+  margin: 1rem;
+}
+.shawp__footer-99shop p {
+  align-self: center;
+  position: relative;
+  font-size: 320px;
+  font-family: var(--font-family-heading);
+  font-weight: bold;
+
+  letter-spacing: 7px;
+  line-height: 16rem;
+}
+.shawp__footer-content1 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: auto;
+  scale: 0.9;
+}
+.shawp__footer-content {
+  display: flex;
+  align-items: center;
+
+  overflow: visible;
+  padding: 3rem;
+  background-color: #cbbbb2;
+  border-radius: 50px;
+  max-height: 300px;
+  margin: 2rem 0;
+  margin-bottom: 4.5rem;
+}
+.shawp__footer-content-phone {
+  height: 350px;
+  width: 280px;
+}
+.shawp__footer-content-phone img {
+  height: 100%;
+}
+.shawp__footer-content-playstore {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+
+  color: white;
+}
+.shawp__footer-content-playstore p {
+  font-size: 65px;
+  font-family: var(--font-family-heading);
+  font-weight: bold;
+
+  letter-spacing: 7px;
+  line-height: 4rem;
+}
+.shawp__footer-content-playstore-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.playstore,
+.appstore {
+  height: 50px;
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.appstore img:hover,
+.playstore img:hover {
+  scale: 1.02;
+}
+.shawp__footer-content-playstore-images img {
+  height: 100%;
+  width: 100%;
+}
+.shawp__footer-content-customercare {
+  padding-left: 2rem;
+  border-top: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.customercare-heading {
+  width: fit-content;
+  height: fit-content;
+}
+.customercare-heading p {
+  font-size: 30px;
+  font-family: var(--font-family-heading);
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 4rem;
+}
+.customercare-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+}
+.link1,
+.link2,
+.link3 {
+  display: flex;
+  flex-direction: column;
+}
+.link1 p,
+.link2 p,
+.link3 p {
+  color: rgb(118, 118, 118);
+  font-size: 20px;
+  font-family: var(--font-family-heading);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0.3rem 0;
+  line-height: 2rem;
+}
+.link1 p:hover,
+.link2 p:hover,
+.link3 p:hover {
+  color: rgb(46, 46, 46);
+  scale: 1.02;
+}
+.shawp__footer-info {
+  display: flex;
+  margin: 2rem;
+  margin-top: 1rem;
+  border: 1px solid black;
+  border-right: 0;
+  border-left: 0;
+}
+.other-info-outer-container {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+.other-info {
+  display: flex;
+
+  justify-content: space-between;
+}
+.other-info p {
+  color: rgb(118, 118, 118);
+  font-size: 19px;
+  font-family: var(--font-family-heading);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0.3rem 0;
+  line-height: 2rem;
+}
+.other-info p:hover {
+  color: rgb(46, 46, 46);
+  scale: 1.02;
+}
+.other-ifo-link1,
+.other-ifo-link2,
+.other-ifo-link3,
+.other-info-link4 {
+  display: flex;
+  flex-direction: column;
+
+  margin: 2rem 0;
+}
+.shawp__footer-info-follow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  padding-left: 2rem;
+  border-left: 1px solid black;
+  margin-left: 3rem;
+}
+.shawp__footer-info-heading {
+  margin-top: 2rem;
+}
+.shawp__footer-info-heading p {
+  font-size: 30px;
+  font-family: var(--font-family-heading);
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.social-media {
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 1px solid black;
+  margin: 0 10px;
+}
+.social-media img {
+  height: 100%;
+  width: 100%;
+  scale: 0.4;
+}
+.shawp__footer-info-follow-images {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+.shawp__footer-info-follow p {
+  font-size: 30px;
+  font-family: var(--font-family-heading);
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-left: 10px;
+}
+.copyright {
+  margin: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.copyright__content {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+.copyright__content img {
+  height: 20px;
+  margin-right: 1rem;
+}
+.copyright__content p {
+  color: rgb(42, 41, 41);
+  font-size: 19px;
+  font-family: var(--font-family-heading);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  line-height: 2rem;
+}
+.copyright-links {
+  display: flex;
+  align-items: center;
+}
+.copyright-links p {
+  color: rgb(118, 118, 118);
+  font-size: 19px;
+  font-family: var(--font-family-heading);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 1rem;
+  margin: 0 1rem;
+  line-height: 2rem;
+}
+.copyright-links p:hover {
+  color: rgb(46, 46, 46);
+  scale: 1.02;
+}
+@media screen and (max-width: 1400px) {
+  .shawp__footer-99shop img {
+    height: 200px;
+  }
+  .shawp__footer-99shop {
+    width: 40%;
+    margin: 1rem;
+  }
+  .shawp__footer-99shop p {
+    align-self: center;
+    position: relative;
+    font-size: 250px;
+    font-family: var(--font-family-heading);
+    font-weight: bold;
+
+    letter-spacing: 7px;
+    line-height: 13rem;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .shawp__footer-99shop img {
+    height: 150px;
+  }
+  .shawp__footer-99shop {
+    width: 40%;
+    margin: 0.5rem;
+  }
+  .shawp__footer-99shop p {
+    align-self: center;
+    position: relative;
+    font-size: 200px;
+    font-family: var(--font-family-heading);
+    font-weight: bold;
+
+    letter-spacing: 7px;
+    line-height: 11rem;
+  }
+  .shawp__footer-content {
+    scale: 0.8;
+    margin: 0;
+    padding: auto;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .shawp__footer {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 770px) {
+  .shawp__footer-99shop img {
+    height: 150px;
+  }
+  .shawp__footer-99shop {
+    width: 100%;
+    margin: 0.5rem;
+    text-align: center;
+  }
+  .shawp__footer-99shop p {
+    position: relative;
+    font-size: 200px;
+    font-family: var(--font-family-heading);
+    font-weight: bold;
+
+    letter-spacing: 7px;
+    line-height: 11rem;
+  }
+  .shawp__footer-content {
+    scale: 0.8;
+    margin: 0;
+    padding: auto;
+  }
+  .customercare-links {
+    justify-content: space-between;
+  }
+  .shawp__footer-content-customercare {
+    margin: 0;
+
+    width: 100%;
+
+    align-self: center;
+  }
+  .shawp__footer-content1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .shawp__footer {
+    margin-right: 0;
+    margin-left: 1rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .shawp__footer-content {
+    display: flex;
+    align-items: center;
+
+    overflow: visible;
+    padding: 1rem;
+    background-color: #cbbbb2;
+    border-radius: 50px;
+    max-height: 300px;
+    margin: 2rem 0;
+    margin-bottom: 4.5rem;
+  }
+  .shawp__footer-content-phone {
+    height: 350px;
+    width: 280px;
+  }
+  .shawp__footer-content-phone img {
+    height: 100%;
+  }
+  .shawp__footer-content-playstore {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem;
+    margin-left: 1rem;
+    color: white;
+  }
+  .shawp__footer-content-playstore p {
+    font-size: 65px;
+    font-family: var(--font-family-heading);
+    font-weight: bold;
+
+    letter-spacing: 7px;
+    line-height: 4rem;
+  }
+  .shawp__footer-content-playstore-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .playstore,
+  .appstore {
+    height: 40px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .appstore img:hover,
+  .playstore img:hover {
+    scale: 1.02;
+  }
+  .shawp__footer-content-playstore-images img {
+    height: 100%;
+    width: 100%;
+  }
+  .shawp__footer-info {
+    display: none;
+  }
+}
+@media screen and (max-width: 550px) {
+  .shawp__footer-content-customercare {
+    padding: 0;
+  }
+  .shawp__footer-content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .shawp__footer {
+    margin-left: 0;
+  }
+  .copyright {
+    margin: 1rem 0;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .copyright__content {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .copyright__content img {
+    height: 15px;
+    margin-right: 0.5rem;
+  }
+  .copyright__content p {
+    color: rgb(42, 41, 41);
+    font-size: 15px;
+    font-family: var(--font-family-heading);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    line-height: 1.2rem;
+  }
+  .copyright-links {
+    display: flex;
+    align-items: center;
+  }
+  .copyright-links p {
+    color: rgb(118, 118, 118);
+    font-size: 12px;
+    font-family: var(--font-family-heading);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0.4rem;
+
+    line-height: 1.2rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .shawp__footer-content {
+    scale: 0.7;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .shawp__footer-99shop img {
+    height: 100px;
+  }
+  .shawp__footer-99shop {
+    width: 100%;
+    margin: 0rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .shawp__footer-99shop p {
+    position: relative;
+    font-size: 125px;
+    font-family: var(--font-family-heading);
+    font-weight: bold;
+
+    letter-spacing: 7px;
+    line-height: 8rem;
+  }
+  .shawp__footer-content {
+    scale: 0.6;
+    margin: 0;
+    padding: auto;
+  }
+  .customercare-links {
+    justify-content: space-between;
+  }
+  .shawp__footer-content-customercare {
+    margin: 0;
+
+    width: 100%;
+
+    align-self: center;
+  }
+
+  .shawp__footer-content1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    scale: 1;
+  }
+  .shawp__footer {
+    margin-right: 0;
+    margin-left: 1rem;
+  }
+  .customercare-links p {
+    font-size: 14px;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 360px) {
+  .shawp__footer-content1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    scale: 0.85;
+  }
+}

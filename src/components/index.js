@@ -1,0 +1,11 @@
+export { default as CTA } from "./cta/CTA";
+export { default as Feature } from "./feature/Feature";
+export { default as Nav } from "./nav/Nav";
+export { default as Category } from "./category/Category";
+export { default as Collection } from "./collection/Collection";
+export { default as Category2 } from "./category2/Category2";
+export { default as Clothing } from "./clothings/Clothing";
+export { default as Cards } from "./cards/Cards";
+export { default as Animation } from "./animation/Animation";
+export { default as Poster } from "./poster/Poster";
+export { default as Brands } from "./brands/Brands";
