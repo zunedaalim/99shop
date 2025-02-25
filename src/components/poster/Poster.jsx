@@ -1,7 +1,6 @@
 import React from "react";
 import Cutie from "../../Assets/cutie5.jpg";
 import "./poster.css";
-import Skyline from "../../Assets/skyline.svg";
 const Poster = ({ onPlayPause }) => {
   return (
     <div onClick={onPlayPause} className="shawp__poster">

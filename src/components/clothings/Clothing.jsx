@@ -1,9 +1,8 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef, useState } from "react";
 import "./clothing.css";
 import Cards from "../cards/Cards";
 import Arrow from "../../Assets/arrow.svg";
 import Left from "../../Assets/left.svg";
-import model1 from "../../Assets/model.webp";
 import model2 from "../../Assets/model2.webp";
 import model3 from "../../Assets/model3.webp";
 import model4 from "../../Assets/model4.webp";
@@ -13,7 +12,6 @@ import model7 from "../../Assets/model7.webp";
 import model8 from "../../Assets/model8.webp";
 const Clothing = () => {
   const outerContainerRef = useRef(null);
-  const [showScrollLeft, setShowScrollLeft] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
   const handleClick = () => {
     setIsVisible(false);
