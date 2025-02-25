@@ -1,11 +1,8 @@
 import React from "react";
 import "./content.css";
-import kid1 from "../../Assets/kid1.webp";
-import kid2 from "../../Assets/kid2.webp";
-import white from "../../Assets/white.webp";
+
 import Star from "../../Assets/star.svg";
 import cart from "../../Assets/bag.svg";
-import Kiss from "../../Assets/skyline.svg";
 const GoToShop = () => {
   return (
     <div className="gotoshop">

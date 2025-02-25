@@ -32,6 +32,7 @@
 }
 .shawp__brands_content {
   display: flex;
+  position: relative;
 }
 .shawp__brands_content p {
   align-self: center;
@@ -45,13 +46,16 @@
 }
 .shawp__brands_content-star {
   position: absolute;
-  bottom: -30%;
-  right: -8%;
+  top: -10%;
+  right: 30%;
   height: 150px;
   width: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.shawp__brands {
+  overflow: hidden;
 }
 .shawp__brands_content-star img {
   height: 100%;

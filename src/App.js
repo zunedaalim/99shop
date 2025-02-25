@@ -2,8 +2,6 @@ import React from "react";
 import "./App.css";
 import {
   Nav,
-  CTA,
-  Feature,
   Category,
   Collection,
   Category2,
@@ -26,7 +24,6 @@ const App = () => {
         <Content />
         <Video />
         <Brands />
-
         <Footer />
       </div>
     </div>
